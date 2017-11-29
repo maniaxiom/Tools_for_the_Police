@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 3, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+				<h2>
+					Police Portal
+				</h2>
+			</div>
+			<div class="tabbable" id="tabs-492325">
+				<ul class="nav nav-tabs">
+					<li class="active">
+						<a href="#panel-196344" data-toggle="tab">Login</a>
+					</li>
+					<li>
+						<a href="#panel-180696" data-toggle="tab">Sign Up</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="panel-196344">
+						<p>
+							<form action="../v1/userLogin.php" method="POST">
+								<div class="form-group">
+							 
+									<label for="exampleInputEmail1">
+										Unique Police Code
+									</label>
+									<input class="form-control" name="username" id="exampleInputEmail1" type="code">
+								</div>
+								<div class="form-group">
+							 
+									<label for="exampleInputPassword1">
+										Password
+									</label>
+									<input class="form-control" name="password" id="exampleInputPassword1" type="password">
+								</div>
+								<button type="submit" class="btn btn-default">
+									Submit
+								</button>
+							</form>
+						</p>
+					</div>
+					<div class="tab-pane" id="panel-180696">
+						<p>
+
+							<form action="register.php" method="POST">
+								<div class="form-group">
+									 
+									<label for="exampleInputEmail1">
+										Name
+									</label>
+									<input class="form-control" id="" type="name">
+								</div>
+								<div class="form-group">
+									 
+									<label for="exampleInputEmail1">
+										Email address
+									</label>
+									<input class="form-control" id="exampleInputEmail1" type="email">
+								</div>
+								<div class="form-group">
+									 
+									<label for="exampleInputPassword1">
+										Unique Police Code
+									</label>
+									<input class="form-control" id="exampleInputPassword1" type="password">
+								</div>
+								<div class="form-group">
+									 
+									<label for="exampleInputPassword1">
+										Password
+									</label>
+									<input class="form-control" id="exampleInputPassword1" type="password">
+								</div>
+								<button type="submit" class="btn btn-default">
+									Submit
+								</button>
+							</form>
+
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
